@@ -94,36 +94,6 @@ it’s a **full-stack IoT platform** bridging hardware, cloud, and web apps.
 Perfect for real-world deployment and educational innovation. 🎯  
 
 ---
-
-
-## 📂 Project Structure
-EduTrack-Pro/
-│
-├── ArduinoCode/                # ESP8266 firmware code
-│   ├── EduTrackPro.ino          # Main Arduino sketch
-│   ├── config.h                 # Wi-Fi & project configurations
-│   ├── RFID.cpp / RFID.h        # RFID logic (if modularized)
-│   └── utils.h                  # Helper functions
-│
-├── AppScript/                   # Google Apps Script backend
-│   ├── Code.gs                  # Main Google Apps Script file
-│   └── README.md                # Setup instructions for Apps Script
-│
-├── WebDashboard/                # Web front-end (Netlify hosting)
-│   ├── index.html               # Main dashboard HTML
-│   ├── style.css                # Custom styles
-│   ├── script.js                # Dashboard logic
-│   └── assets/                  # Images, icons, logos
-│
-├── CircuitDiagram/              # Electronics schematics
-│   ├── circuit.png              # Full wiring diagram
-│   └── fritzing.fzz             # Editable Fritzing file
-│
-├── Docs/                        # Documentation
-│   ├── Project-Report.pdf        # Detailed documentation
-│   ├── User-Manual.pdf           # End-user manual
-│   └── Images/                  # Photos/screenshots
-│
 ├── LICENSE                      # Open-source license (MIT recommended)
 ├── README.md                    # Main documentation
 └── .gitignore                   # Ignore build/temp files
